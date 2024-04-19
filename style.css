@@ -1,0 +1,544 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    /* height: 100vw; */
+    width: 100%;
+    /* background-color: red; */
+}
+.nav{
+    height: 6vw;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+}
+.nav2 a{
+    text-decoration: none;
+    font-size: 1.3vw;
+    color: black;
+}
+.nav2 button{
+    padding: 0.5vw 1vw;
+    border: 0.1vw solid grey;
+    background-color: white;
+    outline: none;
+    border-radius: 0.5vw;
+    font-size: 1vw;
+}
+.nav img{
+    margin-left: 6vw;
+    height: 80%;
+}
+.dropdown{
+    display: none;
+}
+.crousal{
+    height: 40vw;
+    /* background-color: black; */
+    background-image: url(bg-image-30.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+
+ .crousal .fa-arrow-left{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-left: 1vw;
+    font-size: 3vw;
+    padding: 1vw 1vw;
+    border-radius: 50%;
+    border: 0.1vw solid gray;
+    color: gray;
+}
+.crousal .fa-arrow-right{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-right: 1vw;
+    font-size: 3vw;
+    padding: 1vw 1vw;
+    border-radius: 50%;
+    border: 0.1vw solid gray;
+    color: gray;
+    
+} 
+.crousal .data{
+    height: 50%;
+    width: 50%;
+    /* background-color: red; */
+    margin-left: 30vw;
+}
+.crousal .data h1{
+    font-size: 6.5vw;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: end;
+}
+.crousal .data p{
+    text-align: end;
+    font-size: 1.7vw;
+    color: rgb(156, 154, 154);
+}
+.crousal .data button{
+    width: 15vw;
+    height: 4vw;
+    font-size: 2vw;
+    border: none;
+    outline: none;
+    background-color: crimson;
+    border-radius: 1vw;
+    color: white;
+    margin-top: 1vw;
+    margin-left: 74%;
+    
+}
+
+.first{
+    height: 20vw;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin-top: 1vw;
+}
+ .first div{
+    height: 100%;
+    width: 25%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2vw;
+}
+.first div i{
+    font-size: 4vw;
+    color: crimson;
+}
+ .first div h3{
+    font-size: 1.6vw;
+    font-weight: 500;
+}
+ .first div p{
+    font-size: 1.2vw;
+    color: rgb(49, 49, 49);
+}
+
+.page2{
+    /* height: 100vw; */
+    width: 100%;
+    /* background-color: green; */
+}
+.page2 .services{
+    height: 30vw;
+    width: 100%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 10vw;
+}
+.page2 .services .image{
+    height: 100%;
+    width: 20%;
+    /* background-color: yellow; */
+    display: block;
+    text-align: start;
+}
+.page2 .services .image img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.3vw;
+}
+
+.page2 .services .image h3{
+    font-size: 1.6vw;
+    font-weight: 500;
+    margin-top: 1vw;
+}
+.page2 .services .image p{
+    font-size: 1.2vw;
+    color: rgb(49, 49, 49);
+    margin-top: 1vw;
+}
+.page2 .services .image a{
+    text-decoration: none;
+    color: black;
+    line-height: 3vw;
+    font-size: 1.3vw;
+    font-weight:500;
+    
+}
+.serv{
+    height: 100%;
+    width: 20%;
+    /* background-color: yellow; */
+    display: block;
+    
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.serv h1{
+    text-align: start;
+    font-size: 4vw;
+}
+.serv p{
+    font-size: 1.2vw;
+    color: rgb(49, 49, 49);
+    text-align: start;
+    margin-top: 1vw;
+}
+.serv a{
+    text-decoration: none;
+    text-align: start;
+    color: black;
+    line-height: 3vw;
+    font-size: 1.3vw;
+    font-weight:500;
+}
+.serv h6, .image h6{
+    content: "";
+    background-color: red;
+    padding: 0.1vw 0;
+    width: 20%;
+}
+.crousal2{
+    height: 30vw;
+    width: 100%;
+    background-image: url(bg-image-17.jpg);
+
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+}
+.crousal2 .container{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+.crousal2 .container .number{
+    height: 100%;
+    width: 25%;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.crousal2 .container .number h1{
+    font-size: 6vw;
+    color: white;
+}
+.crousal2 .container .number p{
+    font-size: 1.2vw;
+    color: white;
+    
+}
+.managing-team{
+    height: 10vw;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.managing-team p{
+    width: 40%;
+    text-align: center;
+    font-size: 1.2vw;
+    color: rgb(49, 49, 49);
+    margin-top: 1vw;
+}
+.managing-team h1{
+    font-size: 3.5vw;
+}
+.team-member{
+    height: 35vw;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    margin-top: 3vw;
+}
+.team-member .container2{
+    height: 32vw;
+    width: 20%;
+    /* background-color: green; */
+}
+.team-member .container2 img{
+    width: 100%;
+    /* height: 80%; */
+    border-radius: 0.5vw;
+}
+.team-member .container2 h3{
+    font-size: 1.3vw;
+   
+}
+.team-member .container2 .sr{
+    font-size: 1.2vw;
+    color: rgb(49, 49, 49);
+    
+}
+.team-member .container2 .i{
+    font-size: 1.5vw;
+}
+.lets-work{
+    height: 30vw;
+    width: 100%;
+    background: rgb(248,29,9);
+    background: linear-gradient(179deg, rgba(248,29,9,1) 0%, rgba(241,13,81,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vw;
+    margin-top: 4vw;
+}
+.lets-work h6{
+    font-size: 1vw;
+    color: white;
+}
+.lets-work h1{
+    font-size: 5vw;
+    color: white;
+}
+.lets-work button{
+    padding: 0.8vw 2vw;
+    font-size: 2vw;
+    border: 0.2vw solid white;
+    outline: none;
+    background-color: crimson;
+    border-radius: 0.5vw;
+    color: white;
+    
+}
+
+.footer{
+    height: 6vw;
+    width: 100%;
+    background-color: rgb(41, 40, 40);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+}
+.footer p{
+    font-size: 1vw;
+    color: white;
+}
+.footer p i{
+    padding: 1vw 1vw;
+    border: 0.2vw solid white;
+    border-radius: 50%;
+    
+}
+.footer h6{
+    font-size: 1vw;
+    color: white;
+    font-weight: 450;
+}
+.footer img{
+    height: 80%
+}
+.about{
+    height: 40vw;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    margin-top: 5vw;
+
+}
+.about .left{
+    height: 100%;
+    width: 50%;
+    /* background-color: green; */
+    padding: 4vw 8vw;
+}
+.about .left h1{
+    font-size: 4vw;
+}
+.about .left h3{
+    font-size: 1.3vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.about .left p{
+    font-size: 1.2vw;
+    color: rgb(49, 49, 49);
+}
+.about .left h6{
+    font-size: 1vw;
+    color: rgb(36, 35, 35);
+    font-weight: 500;
+}
+.about .left h6 i{
+    color: crimson;
+    margin-right: 0.5vw;
+}
+.about .right{
+    height: 100%;
+    width: 40%;
+    padding: 3vw 3vw;
+    background-image: url(about-3.png);
+    background-size: cover;
+    border-radius: 0.3vw;
+}
+
+.about .right i{
+    position: relative;
+    top: 50%;    
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: crimson;
+    color: white;
+    border-radius: 50%;
+    padding: 2.2vw 2.5vw;
+    font-size: 2vw;
+}
+.pricing{
+    height: 10vw;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+}
+.pricing h1{
+    font-size: 4vw;
+    
+}
+.pricing p{
+    width: 50vw;
+    text-align: center;   
+    font-size: 1.2vw;
+    color: rgb(49, 49, 49);
+}
+.box{
+    height: 35vw;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    margin-top: 2vw;
+}
+.box div{
+    height: 100%;
+    width: 25%;
+    /* background-color: red; */
+    border: 0.2vw solid crimson;
+    border-radius: 2%;
+    padding: 1vw 2vw;
+}
+.box div h4{
+    text-align: center;
+    font-size: 1.7vw;
+    color: black;
+}
+.box div h1{
+    text-align: center;
+    font-size: 6vw;
+    color: crimson;
+    font-weight: 500;
+}
+.box div h6{
+    text-align: center;
+    font-size: 1vw;
+    margin-bottom: 5vw;
+    color: crimson;
+}
+.box div h5{
+    font-size: 1vw;
+    line-height: 2vw;
+    color: black;
+    font-weight: 500;
+}
+.box div h5 i{
+    color: crimson;
+    margin-right: 0.5vw;
+}
+.box div button{
+    padding: 0.8vw 2vw;
+    position: relative;
+    transform: translate(50%,50%);
+    color: crimson;
+    background-color: white;
+    outline: none;
+    border: 0.1vw solid crimson;
+    border-radius: 0.2vw;
+    font-size: 0.9vw;
+}
+
+.box div p{
+    content: "";
+    background-color: rgb(231, 231, 231);
+    padding: 0.5px 8vw;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    left: 10%;
+    transform: translateX(50%,50%);
+    margin-top: -3vw;
+    margin-bottom: 2vw;
+}
+#colored{
+    background: rgb(248,29,9);
+    background: linear-gradient(179deg, rgba(248,29,9,1) 0%, rgba(241,13,81,1) 100%);
+    
+}
+#colored h1{
+    color: white;
+}
+#colored h6{
+    color: white;
+}
+#colored h5{
+    color: white;
+}
+#colored h5 i{
+    color: white;
+}
+#colored h4{
+    color: white;
+}
